@@ -10,6 +10,7 @@ body {
   height: 100%; }
 
 .header__port-item {
+  width: 25%;
   flex-grow: 1; }
   .header__port-item .fa {
     font-size: 1em; }
