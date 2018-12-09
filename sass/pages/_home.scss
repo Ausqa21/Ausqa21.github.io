@@ -1,3 +1,13 @@
 #port_1 {
     cursor: pointer;
 }
+
+.go-to {
+    text-decoration: none;
+    color: white;
+    
+    &:hover {
+        text-decoration: none;
+        color: white;
+    }
+}

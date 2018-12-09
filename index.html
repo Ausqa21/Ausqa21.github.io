@@ -23,15 +23,15 @@
                             <div class="name">
                                 <div class="row">
                                     <div class="col">
-                                        <h1 class="display-4 font-weight-light text-center">Godric Oscar Dolphine</h1>
+                                        <h1 class="display-5 font-weight-light text-center">Godric Oscar Dolphine</h1>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col mx-5 mt-2 d-flex flex-row justify-content-center align-items-center">
-                                        <div class="mx-4"><a class="social" href=""><i class="fab fa-linkedin"></i></a></div>
-                                        <div class="mx-4"><a class="social" href="https://www.twitter.com/Ausqa21"><i class="fab fa-twitter"></i></a></div>
-                                        <div class="mx-4"><a class="social" href=""><i class="fab fa-github"></i></a></div>
-                                        <div class="mx-4"><a class="social" href="#"><i class="fab fa-blogger"></i></a></div>
+                                    <div class="col mx-3 mx-sm-5 mt-2 d-flex flex-row justify-content-center align-items-center">
+                                        <div class="mx-2 mx-sm-4"><a class="social" href=""><i class="fab fa-linkedin"></i></a></div>
+                                        <div class="mx-2 mx-sm-4"><a class="social" href="https://www.twitter.com/Ausqa21"><i class="fab fa-twitter"></i></a></div>
+                                        <div class="mx-2 mx-sm-4"><a class="social" href=""><i class="fab fa-github"></i></a></div>
+                                        <div class="mx-2 mx-sm-4"><a class="social" href="#"><i class="fab fa-blogger"></i></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -39,17 +39,17 @@
                         <div class="p-3 bg-black">
                             <h5 class="font-weight-light text-center">Experienced Web Developer</h5>
                         </div>
-                        <div class="d-flex flex-row text-white align-items-stretch text-center">
-                            <div class="header__port-item p-3 bg-primary" data-toggle="collapse" data-target="#home">
+                        <div class="header__port-item-wrapper text-white align-items-stretch text-center">
+                            <div class="header__port-item p-3 bg-home" data-toggle="collapse" data-target="#home">
                                 <i class="fa fa-home d-block"></i>Home
                             </div>
-                            <div class="header__port-item p-3 bg-success" data-toggle="collapse" data-target="#resume">
+                            <div class="header__port-item p-3 bg-resume" data-toggle="collapse" data-target="#resume">
                                 <i class="fa fa-graduation-cap d-block"></i>Resume
                             </div>
-                            <div class="header__port-item p-3 bg-warning" data-toggle="collapse" data-target="#work">
+                            <div class="header__port-item p-3 bg-work" data-toggle="collapse" data-target="#work">
                                 <i class="fa fa-folder-open d-block"></i>Work
                             </div>
-                            <div class="header__port-item p-3 bg-danger" data-toggle="collapse" data-target="#contact">
+                            <div class="header__port-item p-3 bg-contact" data-toggle="collapse" data-target="#contact">
                                 <i class="fa fa-envelope d-block"></i>Contact
                             </div>
                         </div>
@@ -60,9 +60,9 @@
         
         <!-- HOME -->
         <div class="collapse show home-section" id="home">
-            <div class="card card-body bg-primary text-white py-4">
-                <h2>Welcome! I'm glad you're here.</h2>
-                <p class="lead">Since beginning my journey in this field, my dedication to the work and motivation to grow have led me to exceptional projects and experiences. Take a moment to explore my portfolio and don’t hesitate to reach out if you’d like to learn more.</p>
+            <div class="card card-body bg-home text-white py-4">
+                <h2 class="font-weight-light">Welcome! I'm glad you're here.</h2>
+                <p>Since beginning my journey in this field, my dedication to the work and motivation to grow have led me to exceptional projects and experiences. Take a moment to explore my portfolio and don’t hesitate to reach out if you’d like to learn more.</p>
             </div>
             <div class="card card-body py-4">
                 <h3>My Skills</h3>
@@ -90,8 +90,8 @@
         
         <!-- RESUME-->
         <div class="collapse resume-section" id="resume">
-            <div class="card card-body bg-success text-white py-4">
-                <h2>My Resume</h2>
+            <div class="card card-body bg-resume text-white py-4">
+                <h2 class="font-weight-light">My Resume</h2>
             </div>
             
             <div class="card card-body py-4">
@@ -105,7 +105,7 @@
                                 Position: Web Developer
                             </p>
                             <p class="p-2 mb-3 bg-dark text-white">
-                                <a class="btn btn-warning" href="www.pph.me/ausqa21" target="_blank">PeoplePerHour Profile</a>
+                                <a class="btn btn-warning" href="pph.me/ausqa21" target="_blank">PeoplePerHour Profile</a>
                                 <a class="btn btn-primary" href="https://www.freelancer.com/u/Ausqa21" target="_blank">Freelancer Profile</a>
                                 <a class="btn btn-success" href="https://www.fiverr.com/ausqa21" target="_blank">Fiverr Profile</a>
                             </p>
@@ -120,8 +120,8 @@
         
         <!-- WORK-->
         <div class="work-section collapse" id="work">
-            <div class="card card-body bg-warning py-4">
-                <h2>My Portfolio</h2>
+            <div class="card card-body bg-work text-white py-4">
+                <h2 class="font-weight-light">My Portfolio</h2>
                 <p>A collection of my work over the years and the technologies they were built with.</p>
             </div>
             <div class="card card-body py-4">
@@ -143,17 +143,19 @@
                                     <div class="modal-body">
                                         <img class="img-fluid" src="img/Capture.PNG" alt="">
                                         <p>This is a simple portfolio site with a blog attached deployed on Heroku. Scroll down for link.</p>
-                                        <p>Built with:</p> 
-                                        <ul>
-                                            <li>HTML/CSS/SCSS</li>
-                                            <li>Bootstrap</li>
-                                            <li>Django</li>
-                                            <li>Python</li>
-                                            <li>PostgreSQL</li>
-                                        </ul>
+                                        <div class="d-flex flex-row">
+                                            <p class="mr-2">Built with:</p> 
+                                            <ul class="list-unstyled">
+                                                <li><i class="fas fa-check-square"></i> HTML/CSS/SCSS</li>
+                                                <li><i class="fas fa-check-square"></i> Bootstrap</li>
+                                                <li><i class="fas fa-check-square"></i> Django</li>
+                                                <li><i class="fas fa-check-square"></i> Python</li>
+                                                <li><i class="fas fa-check-square"></i> PostgreSQL</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <a href="https://a21-portfolio-sample.herokuapp.com/" class="btn btn-warning" target="_blank">Go to site</a>
+                                        <a href="https://a21-portfolio-sample.herokuapp.com/" class="go-to btn bg-work" target="_blank">Go to site</a>
                                     </div>
                                 </div>
                             </div>
@@ -165,8 +167,8 @@
         
         <!-- CONTACT-->
         <div class="contact-section collapse" id="contact">
-            <div class="card card-body bg-danger text-white py-4">
-                <h2>Contact</h2>
+            <div class="card card-body bg-contact text-white py-4">
+                <h2 class="font-weight-light">Contact</h2>
             </div>
             <div class="card card-body py-4">
                 <h3>Get in touch</h3>
@@ -176,7 +178,7 @@
                     <div class="form-group">
                         <div class="input-group input-group-lg">
                             <div class="input-group-prepend">
-                                <span class="input-group-text bg-danger text-white">
+                                <span class="input-group-text bg-contact text-white">
                                     <i class="fas fa-user"></i>
                                 </span>
                             </div>
@@ -186,7 +188,7 @@
                     <div class="form-group">
                         <div class="input-group input-group-lg">
                             <div class="input-group-prepend">
-                                <span class="input-group-text bg-danger text-white">
+                                <span class="input-group-text bg-contact text-white">
                                     <i class="fas fa-envelope"></i>
                                 </span>
                             </div>
@@ -196,7 +198,7 @@
                     <div class="form-group">
                         <div class="input-group input-group-lg">
                             <div class="input-group-prepend">
-                                <span class="input-group-text bg-danger text-white">
+                                <span class="input-group-text bg-contact text-white">
                                     <i class="fas fa-pencil-alt"></i>
                                 </span>
                             </div>
