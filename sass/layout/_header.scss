@@ -7,7 +7,20 @@
 
     &__port-item {
         width: 25%;
-//        flex-grow: 1;
+        
+        @media (max-width: 280px) {
+            width: 100%;
+        }
+        
+        &-wrapper {
+            display: flex;
+            flex-direction: row;
+            
+            @media (max-width: 280px) {
+//                width: 100%;
+                flex-direction: column;
+            }
+        }
 
         .fa {
             font-size: 1em;
