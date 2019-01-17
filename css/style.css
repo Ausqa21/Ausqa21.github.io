@@ -66,8 +66,11 @@ html {
     text-decoration: none;
     color: white; }
 
-#port_1 {
-  cursor: pointer; }
+#port_1, #port_2, #port_3 {
+  cursor: pointer;
+  border: 3px solid #AA6C39;
+  border-radius: 3px 3px 3px 3px;
+  padding: .3rem; }
 
 .go-to {
   text-decoration: none;

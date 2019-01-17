@@ -1,5 +1,8 @@
-#port_1 {
+#port_1, #port_2, #port_3 {
     cursor: pointer;
+    border: 3px solid $work;
+    border-radius: 3px 3px 3px 3px;
+    padding: .3rem;
 }
 
 .go-to {
