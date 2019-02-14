@@ -32,12 +32,6 @@ html {
 .bg-contact {
   background: #AA3939; }
 
-.bg-orange {
-  background: #FF8F34;
-  color: #fff; }
-  .bg-orange:hover {
-    color: #fff; }
-
 .header__img {
   width: 100%;
   height: 100%; }
